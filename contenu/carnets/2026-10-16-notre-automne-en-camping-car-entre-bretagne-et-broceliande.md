@@ -4,6 +4,7 @@ date: 2026-10-24
 description: Pour les vacances de la Toussaint, la Team BLAS prend la route vers
   le Domaine des Ormes et la forêt de Brocéliande. Un nouveau voyage en famille,
   entre découvertes, balades à vélo et souvenirs d'automne.
+image: /media/ChatGPT Image 6 août 2026, 11_56_24.png
 ---
 ## 🍂 La Team BLAS reprend la route !
 
