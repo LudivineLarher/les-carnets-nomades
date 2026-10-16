@@ -1,0 +1,53 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: carnets
+    label: Grands carnets
+    type: collection
+    path: contenu/carnets
+    view:
+      fields: [title, date, description]
+    fields:
+      - name: title
+        label: Titre du voyage
+        type: string
+        required: true
+      - name: date
+        label: Date du voyage
+        type: date
+      - name: description
+        label: Présentation du voyage
+        type: text
+      - name: image
+        label: Photo principale
+        type: image
+      - name: body
+        label: Notre récit
+        type: rich-text
+
+  - name: destinations
+    label: Destinations
+    type: collection
+    path: contenu/destinations
+    view:
+      fields: [title, region]
+    fields:
+      - name: title
+        label: Nom de la destination
+        type: string
+        required: true
+      - name: region
+        label: Région
+        type: string
+      - name: image
+        label: Photo principale
+        type: image
+      - name: budget
+        label: Budget
+        type: string
+      - name: body
+        label: Notre expérience et nos conseils
+        type: rich-text
